@@ -1,12 +1,12 @@
-﻿using MarsRoverTrial1.Abstract;
-using MarsRoverTrial1.Helpers;
-using MarsRoverTrial1.Models;
+﻿using MarsRover.Abstract;
+using MarsRover.Helpers;
+using MarsRover.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MarsRoverTrial1.Concrete
+namespace MarsRover.Concrete
 {
     public class RoverService : IRoverService
     {

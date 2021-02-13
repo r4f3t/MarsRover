@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MarsRoverTrial1.Abstract.Command
+namespace MarsRover.Abstract.Command
 {
     public interface ICommand
     {

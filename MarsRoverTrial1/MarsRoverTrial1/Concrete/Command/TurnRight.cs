@@ -1,11 +1,11 @@
-﻿using MarsRoverTrial1.Abstract.Command;
-using MarsRoverTrial1.Models;
-using MarsRoverTrial1.Models.Enums;
+﻿using MarsRover.Abstract.Command;
+using MarsRover.Models;
+using MarsRover.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MarsRoverTrial1.Concrete.Command
+namespace MarsRover.Concrete.Command
 {
     public class TurnRight : ICommand
     {

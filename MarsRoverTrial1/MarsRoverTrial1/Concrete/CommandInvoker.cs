@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MarsRoverTrial1.Abstract.Command;
-namespace MarsRoverTrial1.Concrete
+using MarsRover.Abstract.Command;
+namespace MarsRover.Concrete
 {
     public class CommandInvoker
     {

@@ -1,14 +1,14 @@
-﻿using MarsRoverTrial1.Abstract.Command;
-using MarsRoverTrial1.Concrete.Command;
-using MarsRoverTrial1.Models;
-using MarsRoverTrial1.Models.Enums;
+﻿using MarsRover.Abstract.Command;
+using MarsRover.Concrete.Command;
+using MarsRover.Models;
+using MarsRover.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MarsRoverTrial1.Helpers
+namespace MarsRover.Helpers
 {
     public static class InputSolver
     {

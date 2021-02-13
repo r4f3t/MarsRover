@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MarsRoverTrial1.Models.Enums
+namespace MarsRover.Models.Enums
 {
     public enum Direction
     {

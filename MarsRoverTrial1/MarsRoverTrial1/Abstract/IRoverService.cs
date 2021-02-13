@@ -1,9 +1,9 @@
-﻿using MarsRoverTrial1.Models;
+﻿using MarsRover.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MarsRoverTrial1.Abstract
+namespace MarsRover.Abstract
 {
     public interface IRoverService
     {

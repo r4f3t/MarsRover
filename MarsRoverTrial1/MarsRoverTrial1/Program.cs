@@ -1,11 +1,11 @@
-﻿using MarsRoverTrial1.Concrete;
-using MarsRoverTrial1.Helpers;
-using MarsRoverTrial1.Models;
+﻿using MarsRover.Concrete;
+using MarsRover.Helpers;
+using MarsRover.Models;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace MarsRoverTrial1
+namespace MarsRover
 {
     class Program
     {

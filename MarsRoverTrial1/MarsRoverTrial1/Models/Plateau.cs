@@ -1,7 +1,7 @@
-﻿using MarsRoverTrial1.Helpers;
+﻿using MarsRover.Helpers;
 using System.Drawing;
 
-namespace MarsRoverTrial1.Models
+namespace MarsRover.Models
 {
     public class Plateau
     {
