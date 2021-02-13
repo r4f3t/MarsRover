@@ -7,10 +7,11 @@ namespace MarsRoverTrial1.Concrete
     public class CommandInvoker
     {
         private ICommand _command;
-        public CommandInvoker(ICommand command)
+        public CommandInvoker()
         {
-            _command = command;
         }
+
+        public void SetCommand(ICommand command) => _command = command;
 
         public void Invoke()
         {

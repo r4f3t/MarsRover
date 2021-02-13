@@ -1,4 +1,5 @@
-﻿using MarsRoverTrial1.Models;
+﻿using MarsRoverTrial1.Abstract.Command;
+using MarsRoverTrial1.Models;
 using MarsRoverTrial1.Models.Enums;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace MarsRoverTrial1.Concrete.Command
 {
-   public class TurnLeft
+   public class TurnLeft:ICommand
     {
         private Rover _rover;
         public TurnLeft(Rover rover)
