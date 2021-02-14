@@ -1,6 +1,8 @@
-﻿using MarsRover.Concrete;
+﻿using MarsRover.Abstract;
+using MarsRover.Concrete;
 using MarsRover.Helpers;
 using MarsRover.Models;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,7 +13,10 @@ namespace MarsRover
     {
         static void Main(string[] args)
         {
-            RoverService roverService = new RoverService();
+            //Connect Service injector Get concrete class of service interfaces
+            ServiceProvider serviceProvider = ServiceInjector.Register();
+            IRoverService roverService = serviceProvider.GetService<IRoverService>();
+            
             CommandInvoker commandInvoker = new CommandInvoker();
 
             //Get Inputs

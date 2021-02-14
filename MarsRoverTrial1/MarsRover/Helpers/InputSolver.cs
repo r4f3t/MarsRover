@@ -24,7 +24,7 @@ namespace MarsRover.Helpers
         public static Tuple<Point, Direction> GetRoverInitialValues(string input)
         {
             //input character check by regex
-            if (Regex.IsMatch(input, @"\d \d [NSEW]"))
+            if (Regex.IsMatch(input, @"\d \d [NSEW]+$"))
             {
                 var points = input.Split(' ');
 
@@ -45,7 +45,7 @@ namespace MarsRover.Helpers
             //List that has command actions implenmented from ICommand
             List<ICommand> commands = new List<ICommand>();
             //input character check by regex
-            if (Regex.IsMatch(input, @"[LRM]"))
+            if (Regex.IsMatch(input, @"[LRM]+$"))
             {
                 foreach (var side in input)
                 {
